@@ -1,0 +1,5 @@
+.carousel-control-next, .carousel-control-prev {
+    top: inherit;
+    bottom: inherit;
+    opacity: 1;
+}

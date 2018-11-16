@@ -1,0 +1,200 @@
+html, body {
+   background-color: #ADE0A2;
+   margin: auto;   
+}
+html {    
+    min-height:100%;
+    background-size: cover;
+}
+body {
+    min-height:100%;
+}
+.container { 
+    padding: 50px 0 50px 0; 
+}
+h2 {
+    padding: 20px;
+}
+p {
+    line-height: 2;
+}
+.main-container{
+    display: flex;
+    border: 2px solid #41454E;    
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px; 
+    margin-bottom: 50px;   
+    padding: 20px 30px 20px 30px;
+}
+.first-container{
+    display: flex;
+    border: 2px solid #41454E;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;    
+    padding: 20px 40px 40px 40px;
+}
+.avatar>img {
+    width: 200px;
+    height: 200px;
+    margin: 15px 20px 15px 20px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.main-text { 
+    font-size: 17px;   
+}
+
+.second-container { 
+    display: flex;
+    border: 2px solid #41454E;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;    
+    padding: 20px 30px 20px 30px;
+}
+
+.block-wrapper {
+    margin-bottom: 50px;
+}
+
+img{
+ max-width: 100%;
+ display: block;
+}
+.projects{ 
+    height: 400px;   
+    background-color: #16A89B;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+
+    text-align: center;
+}
+.sertificates{
+    height: 400px;
+    background-color: #25AD23;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.skills{ 
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.single-skills__tag {
+    color: #919191;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+    margin: 15px;
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 6px;
+
+}
+.interests {  
+    blackground-color: #7DC76E;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    display: solid;
+    text-align: center;    
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px; 
+}
+.footer__copyright {
+    color: #585858;
+    font-size: 16px;
+}    
+a {
+    color: #585858;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+/** МЕДИА-ЗАПРОСЫ **/
+
+/** для экранов меньше 1200 пикселей **/
+@media (max-width: 1200px) {
+h2 {
+    font-size: 20px;
+}   
+img {
+    height: 290px;
+}
+.main-container {
+    margin-left: 3px;
+    margin-right: 3px;    
+}
+.first-container {
+    margin-left: 3px;
+    margin-right: 3px;     
+}
+.second-container {
+    margin-left: 3px;
+    margin-right: 3px;     
+}
+}
+
+/** для экранов меньше 990 пикселей **/
+@media (max-width: 990px) {
+.block-wrapper {
+    width: auto;
+}
+.wrapper {
+    margin: 0px 10px 20px 10px; 
+}
+.footer__copyright {
+    color: #585858;
+    font-size: 14px;
+}    
+a {
+    color: #585858;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+}
+
+/** для экранов менее 600 пикселей **/
+@media (max-width: 600px) {
+.container { 
+    padding: 0; 
+}
+
+ .main-container {
+    margin: 0;
+    border: 0;
+ }
+ .first-container {
+    margin: 0;
+    border: 0;
+ }
+ .second-container {
+    margin: 0;
+    border: 0;
+ }
+img {
+    height: 250px;
+}
+}
